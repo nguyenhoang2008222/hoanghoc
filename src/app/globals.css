@@ -40,3 +40,19 @@ a {
     color-scheme: dark;
   }
 }
+
+.slick-prev:before, .slick-next:before {
+  color: #ff8484 !important;
+}
+
+.slick-prev, .slick-next {
+  z-index: 99 !important;
+}
+
+.slick-prev {
+  left: 0px !important;
+}
+
+.slick-next {
+  right: 0px !important;
+}
