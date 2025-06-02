@@ -1,4 +1,4 @@
-import connectToMongoDB from "../../library/mongdb";
+import connectToMongoDB from "../../lib/mongdb";
 import User from "../../models/user";
 
 export async function GET() {
